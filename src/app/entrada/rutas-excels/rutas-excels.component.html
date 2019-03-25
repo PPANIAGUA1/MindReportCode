@@ -1,0 +1,30 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">InformeAPP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+
+
+  
+
+<div class="jumbotron">
+ 
+  <p class="lead">Para generar un informe de tipo excel hay seleccionar los dos archivos abajo.</p>
+  <hr class="my-4">
+  
+  <h3>Elije un archivo Issue</h3>
+  <br>
+    <input type="file" (change) = "onFileSelectedIssue($event)">
+  <br><br><br>
+  
+  <h3>Elije un archivo WorkLog</h3><br>
+
+ <input type="file" (change) = "onFileSelectedWorkLog($event)">
+<br><br><br><br>
+<button type="button" class="btn btn-info" routerLink="/generar" (click)="onUpload()">generar informes</button>
+</div>
+
+

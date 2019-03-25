@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">InformeAPP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </nav>
+
+ 
+
+
+  
+<button type="button" class="btn btn-warning" (click)="goBack()">volver</button>
+<button type="button" class="btn btn-success" (click)="exportAsXLSX()">generar excel</button>
+ <div class="form-group">
+     
+      </div>
+
+<table class="table table-hover">
+
+	<tr class="table-info" >
+		<td>IssueKey</td>
+		<td>Hours</td>
+    <td>Workdate</td>
+    <td>Incurred Date</td>
+    <td>Summary</td>
+    <td>Login</td>
+    <td>Full Name</td>
+    <td>Project Key</td>
+    <td>Version</td>
+    <td>Component</td>
+    <td>Location</td>
+    <td>HoursByUserCalendar</td>
+    <td>Project Group</td>
+    <td>Month</td>
+  </tr>
+
+	<tr *ngFor="let item of data ">
+		<td class="table-active">{{item.issueKey}}</td>
+		<td>{{item.hours}}</td>
+    <td class="table-primary">{{item.workdate}}</td>
+    <td>{{item.incurredDate}}</td>
+    <td class="table-success">{{item.summary}}</td>
+		<td>{{item.login}}</td>
+    <td class="table-danger" >{{item.fullname}}</td>
+    <td>{{item.projectKey}}</td>
+    <td class="table-warning">{{item.version}}</td>
+		<td >{{item.component}}</td>
+    <td class="table-info">{{item.location}}</td>
+    <td>{{item.hoursByUserCalendar}}</td>
+    <td class="table-active">{{item.projectGroup}}</td>
+		<td>{{item.month}}</td>
+  </tr>
+</table>
+
+
+
+
