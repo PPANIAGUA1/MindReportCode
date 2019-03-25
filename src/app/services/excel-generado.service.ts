@@ -23,6 +23,7 @@ export class ExcelGeneradoService {
     console.log(this.rutaWorkLog);
    }
   // excelRuta: ExcelRuta ;
+
   constructor(private http: Http) {}
 
   getAll(): Observable<ExcelGenerado[]> {
