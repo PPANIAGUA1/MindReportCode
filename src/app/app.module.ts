@@ -12,7 +12,6 @@ import { ExcelGeneradoComponent } from './salida/excel-generado/excel-generado.c
 import { AppRoutingModule } from './app-routing.module';
 import { FilterPipe } from './pipes/filter.pipe';
 
-
 @NgModule({
   declarations: [
     AppComponent,

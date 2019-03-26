@@ -34,5 +34,4 @@ res: ExcelGenerado[];
     // this.excelGeneradoService.init(this.issue, this.workLog );
   }
 
-
 }

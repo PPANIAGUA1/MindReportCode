@@ -16,6 +16,7 @@ export class ExcelGenerado {
     projectGroup: string;
     month: string;
 
+
     constructor(  issueKey: string,
                   hours: number, workdate: string, incurredDate: string, summary: string,
                   login: string, fullname: string , projectKey: string, version: string,

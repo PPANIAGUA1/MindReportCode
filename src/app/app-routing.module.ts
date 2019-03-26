@@ -6,7 +6,6 @@ import { RutasExcelsComponent } from './entrada/rutas-excels/rutas-excels.compon
 import { ExcelGeneradoComponent } from './salida/excel-generado/excel-generado.component';
 
 
-
 const routes: Routes = [{ path: 'hicham', redirectTo: '/', pathMatch: 'full' },
 { path: '', component: RutasExcelsComponent },
 { path: 'generar', component: ExcelGeneradoComponent }

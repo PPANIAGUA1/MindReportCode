@@ -17,7 +17,6 @@ export class FilterPipe implements PipeTransform {
        resultPosts.push(post);
 
      }
-
   }
   return resultPosts ;
   }

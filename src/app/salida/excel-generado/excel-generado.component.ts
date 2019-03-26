@@ -13,6 +13,8 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './excel-generado.component.html',
   styleUrls: ['./excel-generado.component.css']
 })
+
+
 export class ExcelGeneradoComponent implements OnInit    {
 
   private data: ExcelGenerado[];

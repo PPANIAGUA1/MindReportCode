@@ -3,8 +3,6 @@ import { Router, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 
-
-
 @Component({
 selector: 'app-root',
 templateUrl: './app.component.html',

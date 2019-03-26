@@ -8,5 +8,4 @@ export class ExcelRuta {
     this.rutaIssue = rutaIssue;
     this.rutaWorkLog = rutaWorkLog ;
   }
-
 }

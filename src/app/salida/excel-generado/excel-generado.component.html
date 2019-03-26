@@ -5,14 +5,10 @@
   </button>
   </nav>
 
- 
-
-
-  
 <button type="button" class="btn btn-warning" (click)="goBack()">volver</button>
 <button type="button" class="btn btn-success" (click)="exportAsXLSX()">generar excel</button>
  <div class="form-group">
-     
+
       </div>
 
 <table class="table table-hover">
@@ -34,7 +30,7 @@
     <td>Month</td>
   </tr>
 
-	<tr *ngFor="let item of data ">
+	<tr *ngFor="let item of data">
 		<td class="table-active">{{item.issueKey}}</td>
 		<td>{{item.hours}}</td>
     <td class="table-primary">{{item.workdate}}</td>
@@ -51,7 +47,6 @@
 		<td>{{item.month}}</td>
   </tr>
 </table>
-
 
 
 
